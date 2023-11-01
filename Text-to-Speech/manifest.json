@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "VoxLingo: Text-To-Speech",
+    "description": "This extension speaks the highlighted text.",
+    "version": "1.0.0",
+    "action": {},
+    "background": {
+        "service_worker": "service_worker.js"
+    },
+    "permissions": ["tts", "activeTab", "contextMenus"],
+    "icons": {
+        "16": "images/icon-16.png",
+        "24": "images/icon-24.png",
+        "32": "images/icon-32.png",
+        "64": "images/icon-64.png",
+        "128": "images/icon-128.png"
+    }
+}

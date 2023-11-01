@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text to Speech and Dictionary Extension</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="extension-content">
+      <h2 class="extension-title">Voxlingo</h2>
+      <div class="input-container">
+        <input
+          type="text"
+          id="wordInput"
+          class="interactive-input"
+          placeholder=""
+        />
+        <label for="wordInput" class="input-label">Enter a word</label>
+
+        <button id="searchButton" class="searchButton">Search</button>
+      </div>
+
+      <div id="resultContainer" class="resultContainer"></div>
+    </div>
+  </body>
+</html>

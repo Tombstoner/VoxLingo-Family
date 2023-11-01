@@ -1,0 +1,97 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.extension-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+}
+
+.extension-title {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-label {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(50%);
+  pointer-events: none;
+  transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+  font-size: 16px;
+  color: #666;
+  opacity: 0.5;
+}
+
+.interactive-input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+  margin-right: 10px;
+}
+.interactive-input:focus,
+.interactive-input:not(:placeholder-shown) {
+  border-color: #0056b3;
+}
+
+.interactive-input:focus + .input-label,
+.interactive-input:not(:placeholder-shown) + .input-label {
+  transform: translateY(-100%) scale(0.8);
+  font-size: 12px;
+  opacity: 0;
+}
+
+.searchButton {
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.resultContainer {
+  margin-top: 20px;
+}
+
+.result {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.result p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}

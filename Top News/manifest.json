@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "VoxLingo: Top News",
+  "version": "1.0.0",
+  "description": "This extension provides users with the latest news.",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://newsapi.org/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

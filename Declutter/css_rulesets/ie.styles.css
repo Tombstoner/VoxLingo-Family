@@ -1,0 +1,10 @@
+header,
+.breaking-scrollbx,
+.ie-rhs-common-panel,
+.rhs-subhead,
+.trending-wrap,
+footer,
+.rightpanel,
+.premium-story {
+    display: none !important;
+}

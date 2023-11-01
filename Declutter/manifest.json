@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "VoxLingo: Declutter",
+    "version": "1.0.0",
+    "description": "This extension focuses only on the reading content, removing other content.",
+    "action": {},
+    "icons": {
+        "16": "images/icon-16.png",
+        "24": "images/icon-24.png",
+        "32": "images/icon-32.png",
+        "64": "images/icon-64.png",
+        "128": "images/icon-128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting", "contextMenus"]
+}

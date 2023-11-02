@@ -33,7 +33,7 @@ We'd like to thank the following contributors who have helped make VoxLingo Fami
 - Akshansh Sharma - [GitHub Profile](https://github.com/Tombstoner)
 - Tejas Nibrad - [GitHub Profile](https://github.com/Tejas063)
 - Atharva Puranik - [GitHub Profile](https://github.com/Atharva-Puranik)
-- Mohd. Adnan Shaikh - [GitHub Profile](https://github.com/adnan3112)
+- Mohd Adnan Shaikh - [GitHub Profile](https://github.com/adnan3112)
 
 If you'd like to contribute to our project, please follow our [contribution guidelines](CONTRIBUTING.md). 🤝
 
